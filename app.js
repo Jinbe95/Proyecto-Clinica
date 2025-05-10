@@ -1,5 +1,7 @@
 document.getElementById(`formContacto`).addEventListener(`submit`, function (event) {
-    event.preventDefault();
+    event.preventDefault(); 
+
+    console.log("Formulario enviado"); 
 
     const nombre = document.getElementById(`nombre`).value;
     const correo = document.getElementById(`correo`).value;
