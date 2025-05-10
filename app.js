@@ -5,7 +5,7 @@ document.getElementById(`formContacto`).addEventListener(`submit`, function (eve
     const correo = document.getElementById(`correo`).value;
     const mensaje = document.getElementById(`mensaje`).value;
 
-    swal.fire({
+    Swal.fire({
         icon: `success`,
         title: `Mensaje Enviado`,
         text: `Gracias por contactarnos, ${nombre}. Te responderemos pronto.`,
