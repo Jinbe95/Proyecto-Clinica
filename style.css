@@ -6,6 +6,14 @@
   box-sizing: border-box;
 }
 
+
+/* Desplazamiento suave */
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 body{
   font-family: 'Fira Sans', sans-serif;
   background: #003973;  /* fallback for old browsers */
